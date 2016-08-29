@@ -1,0 +1,13 @@
+button {
+	display: block;
+	margin-bottom: 3px;
+}
+
+/*The first section's text should be bold.
+The last section's text should be bold and italicized.*/
+article section:nth-child(1){
+	font-style: bold;
+}
+article section:nth-child(3){
+	font-style: italic;
+}
