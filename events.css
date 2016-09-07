@@ -1,13 +1,18 @@
 button {
 	display: block;
-	margin-bottom: 3px;
+	margin: 10px;
+}
+#add-color,
+#make-large,
+#add-border ,
+#add-rounding,
+#guinea-pig {
+	margin: 10px;
 }
 
-/*The first section's text should be bold.
-The last section's text should be bold and italicized.*/
-article section:nth-child(1){
-	font-style: bold;
+article section:nth-of-type(1){
+	font-weight: bold;
 }
-article section:nth-child(3){
+article section:nth-of-type(6){
 	font-style: italic;
 }
