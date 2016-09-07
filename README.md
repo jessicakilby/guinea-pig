@@ -1,4 +1,4 @@
-# Javascript Exersise: Guinea Pig
+# Javascript Exercise: Guinea Pig
 
 ## Description
 Working with event-listeners and changing elements in the DOM.
