@@ -1,7 +1,7 @@
-# Javascript Exersise: Guinea Pig
+# Javascript Exercise: Guinea Pig
 
 ## Description
-Working with event-listeners and changing elements in the DOM.
+Working with event-listeners and elements in the DOM.
 
 ## How to run
 After you clone the files, navigate to the correct directory in your terminal.
