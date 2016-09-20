@@ -50,20 +50,20 @@ var roundButton = document.getElementById("add-rounding");
 var guineaPigText = document.getElementById("guinea-pig");
 
 function guineaPigColor(){
-	guineaPigText.classList.add("color");
-	guineaPigText.style.color = "blue";
+	guineaPigText.classList.toggle("color");
+	// guineaPigText.style.color = "blue";
 }
 function guineaPigLarge(){
-	guineaPigText.classList.add("large");
-	guineaPigText.style.fontSize = "2em";
+	guineaPigText.classList.toggle("large");
+	// guineaPigText.style.fontSize = "2em";
 }
 function guineaPigBorder(){
-	guineaPigText.classList.add("border");
-	guineaPigText.style.border = "1px solid black";
+	guineaPigText.classList.toggle("border");
+	// guineaPigText.style.border = "1px solid black";
 }
 function guineaPigRound(){
-	guineaPigText.classList.add("round");
-	guineaPigText.style.borderRadius = "25px";
+	guineaPigText.classList.toggle("round");
+	// guineaPigText.style.borderRadius = "25px";
 }
 
 colorButton.addEventListener("click", guineaPigColor);
