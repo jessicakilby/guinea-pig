@@ -2,6 +2,13 @@ button {
 	display: block;
 	margin: 10px;
 }
+
+#outputBorder {
+	border: 1px solid black;
+	width: 400px;
+	/*margin: 400px;*/
+}
+
 #add-color,
 #make-large,
 #add-border ,

@@ -2,6 +2,7 @@ var articleSection = document.getElementsByClassName("article-section");
 var outputTarget = document.getElementById("output-target");
 var pageTitle = document.getElementById("page-title");
 var keypressInput = document.getElementById("keypress-input");
+var clearButton = document.getElementById("clear");
 
 // When any section is clicked the output target text should be "You clicked on the {text of the section} section"
 function printSection(event){
@@ -23,6 +24,9 @@ function printTitleOut(){
 }
 var pageTitleEvent = pageTitle.addEventListener("mouseover", printTitle);
 var pageTitleEvent = pageTitle.addEventListener("mouseout", printTitleOut);
+var clearButtonEvent = clearButton.addEventListener("click", function(){
+	outputTarget.innerHTML = "";
+});
 
 // When you type characters into the input field, the output element should mirror the text in the input field.
 function keypressInputText(){
